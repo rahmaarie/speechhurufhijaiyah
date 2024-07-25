@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belajar Huruf Hijaiyah</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Huruf Hijaiyah</h2>
+        <div id="soal"></div>
+            <p>
+                <button type="button" onclick="runSpeechRecognition()">Mulai</button> &nbsp; <span id="action"></span>
+                <button type="button" class="help-btn" onclick="showHelp()">Bantuan</button> &nbsp;
+            </p>
+        <div id="output" class="hide"></div>
+        <div id="huruf-container"></div>
+        <div id="hijaiyah-image"></div>
+        <!-- <img id="huruf-image" src="" alt="Huruf Hijaiyah"> -->
+    </div>
+    <script>
+        function showHelp() {
+            alert("Jika huruf hijaiyah tidak muncul mohon dibaca 2 kali.");
+        }
+    </script>
+</body>
+</html>

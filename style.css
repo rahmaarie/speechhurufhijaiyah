@@ -1,0 +1,52 @@
+.container{
+    padding:15px 0;
+    background-color: #165123;
+    background-image: linear-gradient(#236d1c 1px, transparent 5px), linear-gradient(to right, #236d1c 1px, #165123 1px); /* Standard */
+    background-size: 30px 30px;
+    height: 100vh;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    color: #a2f89a;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk tombol bantuan */
+.help-btn {
+    background-color: #ff9800; /* Warna oranye */
+}
+
+.help-btn:hover {
+    background-color: #e68900; /* Warna oranye lebih gelap */
+}
+
+#huruf-container {
+    margin-top: 20px;
+}
+
+#huruf-image {
+    max-width: 20px;
+    max-height: 20px;
+}
